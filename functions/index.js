@@ -27,7 +27,7 @@ export async function onRequest(context) {
 
   // ===== TEMA 0 veya 1 -> PHP hosting'e proxy =====
   if (aktifTema === 0 || aktifTema === 1) {
-    const phpUrl = "https://origin.altinoksoft.com" + url.pathname + url.search;
+    const phpUrl = "https://taraftarium.corepanel.pro" + url.pathname + url.search;
 
     const phpRequest = new Request(phpUrl, {
       method: request.method,
