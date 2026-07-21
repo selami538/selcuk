@@ -11,7 +11,7 @@ export async function onRequest(context) {
     return Response.redirect(redirectUrl, 301);
   }
 
-  const apiUrl = "https://origin.altinoksoft.com/api/verirepo.php";
+  const apiUrl = "https://taraftarium.corepanel.pro/api/verirepo.php";
 
   let json = {};
   try {
